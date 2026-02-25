@@ -1,0 +1,5 @@
+{"timestamp":"2026-02-25T19:39:59.559427Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-25T19:39:59.560297Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_with_hooks.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-25T19:39:59.697980Z","level":"info","event":"save orders data in text file: dags/get_orders_2026-02-22.txt","logger":"root","filename":"dag_with_hooks.py","lineno":46}
+{"timestamp":"2026-02-25T19:39:59.706163Z","level":"info","event":"AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper","filename":"connection_wrapper.py","lineno":331}
+{"timestamp":"2026-02-25T19:43:03.585357Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
